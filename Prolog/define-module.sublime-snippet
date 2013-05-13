@@ -1,9 +1,11 @@
 <snippet>
 	<content><![CDATA[
-${1:functor}(${2:args})${3}
+:- module(${1:ModuleName},
+		  [${2:Predicate}/${3:Arity}]
+		 ).
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>pre</tabTrigger>
+	<tabTrigger>dm</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
